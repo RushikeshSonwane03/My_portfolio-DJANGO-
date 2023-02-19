@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+{%load static%}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Font-Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+</head>
+
+<body>
+    <div class="body">
+    <!-- header section starts -->
+
+    <header>
+
+        <div class="user">
+            <img src="{% static 'images/user_pic.png' %}" alt="">
+            <h3 class="name">Rushikesh Sonwane</h3>
+            <p class="post">Computer Engineering Student</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- header section ends -->
+
+
+    <div id="menu" class="fas fa-bars"></div>
+
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+        <div class="k2it">
+                <img src="{% static 'images/k2it_bg.png' %}" alt="">
+        </div>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <h3>HI THERE !</h3>
+        <h1>I'M <span>Rushikesh Sonwane</span></h1>
+        <p>I am flexible, reliable and possess excellent time keeping skills. I am an enthusiastic, self-motivated, reliable, responsible and hard-working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment both using own initiative.
+        </p>
+        <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+    </section>
+
+    <!-- home section ends -->
+
+
+    <!-- about section starts -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>about</span> me </h1>
+        <div class="row">
+            <div class="info">
+                <h3> <span> name : </span> Rushikesh Sonwane </h3>
+                <h3> <span> age : </span> 20 </h3>
+                <h3> <span> Qualification : </span> B-Tech * </h3>
+                <h3> <span> Course : </span> Computer Engineering </h3>
+                <h3> <span> language : </span> Marathi </h3>
+                <a href="#"><button class="btn"> download CV <i class="fas fa-download"></i></button></a>
+            </div>
+
+            <div class="counter">
+                <div class="box">
+                    <span>2+</span>
+                    <h3>Years of Experience</h3>
+                </div>
+
+                <div class="box">
+                    <span>10+</span>
+                    <h3>Projects Completed</h3>
+                </div>
+
+                <div class="box">
+                    <span>1+</span>
+                    <h3>Happy Clients</h3>
+                </div>
+
+                <div class="box">
+                    <span>12+</span>
+                    <h3>Awards Won</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- about section ends -->
+
+
+    <!-- Education section starts -->
+
+    <section class="education" id="education">
+        <h1 class="heading"><span>education</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2011</span>
+                <h3>Primary School</h3>
+                <p>Vivekanand Primary School, Selu</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2015</span>
+                <h3>Secondary School</h3>
+                <p>Nutan Vidayalaya, Selu</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2018</span>
+                <h3>SSC</h3>
+                <p>P. Dr. Vitthalrao Vikhe Patil Sainik School, Loni</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2020</span>
+                <h3>HSC</h3>
+                <p>Y.B. School and Jr College, Aurangabad</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2024</span>
+                <h3>B-Tech</h3>
+                <p>SVKM's Institute Of Technology, Dhule</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>...</span>
+                <h3>...</h3>
+                <p>...</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Education section ends -->
+
+
+    <!-- Portfolio section starts -->
+    <section class="portfolio" id="portfolio">
+
+        <h1 class="heading"><span>Portfolio</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="{% static 'images/web.png' %}" alt="">
+            </div>
+
+            <div class="box">
+                <img src="{% static 'images/android.png' %}" alt="">
+            </div>
+
+            <div class="box">
+                <img src="{% static 'images/python.png' %}" alt="">
+            </div>
+
+            <div class="box">
+                <img src="{% static 'images/C.png' %}" alt="">
+            </div>
+
+            <div class="box">
+                <img src="{% static 'images/C++.png' %}" alt="">
+            </div>
+
+            <div class="box">
+                <img src="{% static 'images/flutter.png' %}" alt="">
+            </div>
+
+            <div class="box">
+                <img src="{% static 'images/java.png' %}" alt="">
+            </div>
+
+            <div class="box">
+                <img src="{% static 'images/img7.png' %}" alt="">
+            </div>
+
+            <div class="box">
+                <img src="{% static 'images/img4.png' %}" alt="">
+            </div>
+
+            <div class="box">
+                <img src="{% static 'images/img0.png' %}" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Portfolio selection ends -->
+
+
+    <!-- about section starts -->
+    <section class="contact" id="contact">
+
+        <h1 class="heading"><span>Contact</span> me </h1>
+
+        <div class="row">
+
+            <div class="content">
+
+                <h3 class="title">Contact Info</h3>
+
+                <div class="info">
+                    <h3><i class="fas fa-envelope"></i>rushisonwane117@gmail.com</h3>
+                    <h3><i class="fas fa-phone"></i>+91-9421067364</h3>
+                    <h3><i class="fas fa-map-marker-alt"></i>Dhule, Maharashtra, India - 424002.</h3>
+                </div>
+
+            </div>
+
+            <form action="">
+
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="text" placeholder="subject" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="To me"></textarea>
+                <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i></button>
+
+            </form>
+
+        </div>
+    </section>
+    <!-- about section ends -->
+
+
+    <!-- Scroll to top Button -->
+
+    <a href="#home" class="top">
+        <img src="images/scroll-top-img.png" alt="">
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <!-- jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
